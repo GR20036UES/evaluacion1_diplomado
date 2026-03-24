@@ -1,0 +1,49 @@
+DROP DATABASE IF EXISTS UJI_DB;
+
+CREATE DATABASE UJI_DB;
+
+\C UJI_DB;
+
+GRANT ALL PRIVILEGES ON DATABASE UJI_DB TO postgres;    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
