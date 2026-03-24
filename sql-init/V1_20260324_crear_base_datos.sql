@@ -1,10 +1,8 @@
-DROP DATABASE IF EXISTS uji_db;
+DROP DATABASE IF EXISTS midb;
 
-CREATE DATABASE uji_db;
+CREATE DATABASE midb;
 
-\C uji_db;
-
-GRANT ALL PRIVILEGES ON DATABASE uji_db TO postgres;    
+GRANT ALL PRIVILEGES ON DATABASE mi_db TO postgres;    
 
 
 
