@@ -1,4 +1,4 @@
-# UJI_DB - Sistema de Gestión de Fallos
+# midb - Sistema de Gestión de Fallos
 
 ## Descripción
 Base de datos para gestión de pizarras, técnicos y reportes de fallos. Proyecto de evaluación con Docker y PostgreSQL.
@@ -24,7 +24,7 @@ docker-compose up -d
 - **PostgreSQL**: localhost:5434
   - Usuario: postgres
   - Contraseña: admin123
-  - Base: UJI_DB
+  - Base: midb
 - **pgAdmin**: http://localhost:5050
   - Email: admin@admin.com
   - Contraseña: admin123
@@ -42,8 +42,12 @@ docker-compose down
 # Ver logs
 docker-compose logs postgres
 
+#crear y ejecutar el contendor
+docker compose up -d
+docker ps -a
+
 # Acceder a la DB
-docker exec -it postgres17 psql -U postgres -d UJI_DB
+docker exec -it postgres17 psql -U postgres -d midb -f docker-entrypoint-initdb.d/main.sql
 ```
 ---
 ## Tablas Principales
