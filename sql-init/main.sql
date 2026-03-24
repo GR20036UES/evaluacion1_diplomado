@@ -1,0 +1,13 @@
+\i docker-entrypoint-initdb.d/V1_20260324_crear_base_datos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_crear_esquema.sql
+\i docker-entrypoint-initdb.d/V1_20260324_crear_tablas.sql
+\i docker-entrypoint-initdb.d/V1_20260324_modificar_tablas.sql
+\i docker-entrypoint-initdb.d/V1_20260324_crear_funcion_y_trigger.sql
+\i docker-entrypoint-initdb.d/V2_20260324_modificar_tablas.sql
+\i docker-entrypoint-initdb.d/V1_20260324_crear_indices.sql
+\i docker-entrypoint-initdb.d/V1_20260324_mantenimiento_rutinario.sql
+\i docker-entrypoint-initdb.d/V1_20260324_documentacion_metadatos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_insercion_datos_prueba.sql
+\i docker-entrypoint-initdb.d/V1_20260324_consulta_datos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_insercion_datos_y_comprobacion_trigger.sql
+\i docker-entrypoint-initdb.d/V1_20260324_prueba_integridad_referencial.sql
